@@ -5,9 +5,22 @@
 
 ## 适配win7需要的改动
 
-### rust降级
+### 1.安装rust
 
-1.77.2
+[官网](https://www.rust-lang.org/tools/install)
+
+### 2.rust降级至1.77.2
+
+[参考](https://github.com/tauri-apps/tauri/issues/12550)
+
+``` shell
+  # 安装 1.77.2
+  rustup install 1.77.2
+  # 切换到 1.77.2
+  rustup default 1.77.2
+  # 验证
+  rustc --version
+```
 
 ## 打包问题参考
 
